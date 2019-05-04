@@ -1,0 +1,59 @@
+:root {
+    --tatu-gray-light: #f2f2f2;
+    --tatu-gray: #404040;
+    --tatu-gray-dark: #333333;
+
+    --tatu-blue-light-x: #99C4ED;
+    --tatu-blue-light: #78ACE7;
+    --tatu-blue: #6097DF;
+    --tatu-blue-dark: #4D82D3;
+    --tatu-blue-dark-x: #4473C8;
+    --tatu-blue-dark-xx: #3D67BD;
+    --tatu-blue-dark-xxx: #3557AD;
+
+    /* Para facilitar a legibilidade da cor laranja, o tom base é mais escuro do que nas restantes cores */
+    --tatu-orange-light-xxx: #FFE2AF;
+    --tatu-orange-light-xx: #FFD38F;
+    --tatu-orange-light-x: #FFC87D;
+    --tatu-orange-light: #FFB863;
+    --tatu-orange: #FFA64D;
+    --tatu-orange-dark: #FF9A3E;
+    --tatu-orange-dark-x: #FF862A;
+
+    --tatu-green-light-x: #A1E2C2;
+    --tatu-green-light: #6ED0A2;
+    --tatu-green: #4CC38F;
+    --tatu-green-dark: #1CB27A;
+    --tatu-green-dark-x: #00A16A;
+    --tatu-green-dark-xx: #009862;
+    --tatu-green-dark-xxx: #008956;
+    
+    --tatu-purple-light-x: #E2E3F0;
+    --tatu-purple-light: #B3B7EA;
+    --tatu-purple: #888CDC;
+    --tatu-purple-dark: #7476CF;
+    --tatu-purple-dark-x: #6A6AC4;
+    --tatu-purple-dark-xx: #5D5AB3;
+    --tatu-purple-dark-xxx: #534DA4;
+
+    --tatu-brown-light-x: #BCA491;
+    --tatu-brown-light: #A58E7C;
+    --tatu-brown: #917C6D;
+    --tatu-brown-dark: #826F61;
+    --tatu-brown-dark-x: #78665A;
+    --tatu-brown-dark-xx: #6B5B4F;
+    --tatu-brown-dark-xxx: #5A4D41;
+
+    --tatu-gold-light-x: #F8E9D3;
+    --tatu-gold-light: #E4C49C;
+    --tatu-gold: #C49E72;
+    --tatu-gold-dark: #AB8861;
+    --tatu-gold-dark-x: #9E7D58;
+    --tatu-gold-dark-xx: #8B6D4B;
+    --tatu-gold-dark-xxx: #785D3D;
+
+    --tatu-nav: #F0D9C5;
+
+    --tatu-correct: #28D38C;
+    --tatu-wrong: #F37876;
+}
