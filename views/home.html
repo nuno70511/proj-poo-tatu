@@ -11,37 +11,44 @@
     <meta name="keywords" content="HTML,CSS,JavaScript,Bootstrap">
     <meta name="author" content="Nuno Cadeia 9170511">
 
-    <link rel="icon" href="img/favicon.ico" type="image/ico">
+    <link rel="icon" href="../img/favicon.ico" type="image/ico">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/home.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">tatu</a>
+    <nav class="navbar navbar-expand-md navbar-light bg-light" style="background-color: var(--tatu-nav-bg) !important;">
+        <a class="navbar-brand ml-xs-auto ml-md-5 p-0" href="home.html">
+            <img src="../img/logo.svg" width="30px">
+        </a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="home.html">Home <span class="sr-only">(currsent)</span></a>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active mx-4">
+                    <a class="nav-link" href="home.html" style="color: var(--tatu-blue)"><i class="fas fa-home" aria-hidden="true"></i>home <span class="sr-only">(currsent)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="quiz.html">Quiz</a>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="quiz.html" style="color: var(--tatu-orange)"><i class="fas fa-play" aria-hidden="true"></i>quiz</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="catalog.html">Catálogo</a>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="catalog.html" style="color: var(--tatu-green)"><i class="fas fa-paw" aria-hidden="true"></i>catálogo</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Sobre</a>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="about.html" style="color: var(--tatu-purple)"><i class="fas fa-info-circle" aria-hidden="true"></i>sobre</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile.html">Perfil</a>
+                <li class="nav-item ml-4 mr-5">
+                    <a class="nav-link" href="profile.html" style="color: var(--tatu-brown)"><i class="fas fa-user-circle" aria-hidden="true"></i>perfil</a>
                 </li>
             </ul>
         </div>

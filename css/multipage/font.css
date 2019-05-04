@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Montserrat');
+
+:root {
+    --tatu-font-regular: "Montserrat", sans-serif;
+    --tatu-font-playful: "Architects Daughter";
+}
+
+body {
+    font-family: var(--tatu-font-regular);
+}
