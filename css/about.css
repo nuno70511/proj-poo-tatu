@@ -1,0 +1,21 @@
+@import "multipage/palette.css";
+@import "multipage/font.css";
+@import "multipage/nav.css";
+@import "multipage/footer.css";
+
+div.row img {
+    width: 20rem;
+}
+
+div.row p {
+    color: var(--tatu-purple-dark);
+}
+
+div.row h3 {
+    color: var(--tatu-purple-dark-xx);
+}
+
+div.row a {
+    color: var(--tatu-purple);
+}
+

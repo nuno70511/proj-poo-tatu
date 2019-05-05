@@ -1,10 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Montserrat|Handlee');
 
 :root {
     --tatu-font-regular: "Montserrat", sans-serif;
-    --tatu-font-playful: "Architects Daughter";
+    --tatu-font-playful: "Handlee", sans-serif;
 }
 
 body {
     font-family: var(--tatu-font-regular);
+}
+
+h3 {
+    font-family: var(--tatu-font-playful);
+}
+
+a {
+    font-style: italic;
+}
+
+.btn {
+    font-family: var(--tatu-font-playful);
+    font-size: 18px;
 }
