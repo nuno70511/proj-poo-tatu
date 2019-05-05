@@ -4,6 +4,8 @@ nav > div > ul {
 
 .nav-link {
     font-size: 26px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 nav > div > ul > li > a > i {
@@ -12,16 +14,24 @@ nav > div > ul > li > a > i {
     vertical-align: -2px;
 }
 
-@media all and (max-width: 768px) {
+nav > div > ul > li > a > i.fa-home {
+    vertical-align: -1px;
+}
+
+@media all and (max-width: 767px) {
     .nav-link {
         font-size: 22px;
+        padding: 0.5rem 0 0.5rem 1rem !important;
     }
 
     nav > div > ul > li > a > i {
         font-size: 18px;
         margin-right: 12px;
-        vertical-align: -2px;
-    }    
+    }
+
+    a.navbar-brand > img {
+        padding: 0.2rem;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 981px) {
@@ -35,8 +45,11 @@ nav > div > ul > li > a > i {
 
     nav > div > ul > li > a > i {
         font-size: 18px;
-        margin-right: 12px;
-        vertical-align: -2px;
+        padding-left: 0.9rem;
         display: inline-block;
-    }    
+    }
+
+    a.navbar-brand > img {
+        width: 3rem;
+    }
 }
