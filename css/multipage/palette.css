@@ -1,5 +1,5 @@
 :root {
-    --tatu-gray-light: #f2f2f2;
+    --tatu-light: #f2f2f2;
     --tatu-gray: #404040;
     --tatu-gray-dark: #333333;
 
@@ -52,7 +52,7 @@
     --tatu-gold-dark-xx: #8B6D4B;
     --tatu-gold-dark-xxx: #785D3D;
 
-    --tatu-nav-bg: #F0D9C5;
+    --tatu-nav-bg: #F4D7BC;
 
     --tatu-correct: #28D38C;
     --tatu-wrong: #F37876;
