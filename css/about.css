@@ -1,11 +1,4 @@
-@import "multipage/palette.css";
-@import "multipage/font.css";
-@import "multipage/nav.css";
-@import "multipage/footer.css";
-
-body {
-    background-color: var(--tatu-light);
-}
+@import "multipage/main.css";
 
 div.row img {
     width: 20rem;
