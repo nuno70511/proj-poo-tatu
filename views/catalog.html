@@ -7,8 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <meta name="description"
-    content="Página para visualizar todos os animais">
+  <meta name="description" content="Página para visualizar todos os animais">
   <meta name="keywords" content="HTML,CSS,JavaScript,Bootstrap">
   <meta name="author" content="Nuno Cadeia 9170511">
 
@@ -17,9 +16,51 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css"
+    integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
+    integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/catalog.css">
 </head>
 
 <body>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand ml-3 ml-md-5 p-0" href="home.html">
+      <img src="../img/logo.svg" width="38rem">
+    </a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav ml-auto mt-2 mb-2 mt-md-0 mb-md-0">
+        <li class="nav-item mx-0 ml-md-5 mr-md-4">
+          <a class="nav-link" href="home.html" style="color: var(--tatu-blue)"><i class="fas fa-home"
+              aria-hidden="true"></i>home <span class="sr-only">(currsent)</span></a>
+        </li>
+        <li class="nav-item mx-0 mx-md-4">
+          <a class="nav-link" href="quiz.html" style="color: var(--tatu-orange)"><i class="fas fa-play"
+              aria-hidden="true"></i>quiz</a>
+        </li>
+        <li class="nav-item mx-0 mx-md-4">
+          <a class="nav-link tatu-active" href="catalog.html"
+            style="background-color: var(--tatu-green); color: var(--tatu-light)"><i class="fas fa-paw"
+              aria-hidden="true"></i>catálogo</a>
+        </li>
+        <li class="nav-item mx-0 mx-md-4">
+          <a class="nav-link" href="about.html" style="color: var(--tatu-purple)"><i class="fas fa-info-circle"
+              aria-hidden="true"></i>sobre</a>
+        </li>
+        <li class="nav-item mx-0 ml-md-4 mr-md-5">
+          <a class="nav-link" href="profile.html" style="color: var(--tatu-brown)"><i class="fas fa-user-circle"
+              aria-hidden="true"></i>perfil</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

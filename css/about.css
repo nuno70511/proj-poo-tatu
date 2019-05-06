@@ -3,6 +3,10 @@
 @import "multipage/nav.css";
 @import "multipage/footer.css";
 
+body {
+    background-color: var(--tatu-light);
+}
+
 div.row img {
     width: 20rem;
 }
