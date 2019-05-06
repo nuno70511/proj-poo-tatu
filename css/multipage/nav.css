@@ -1,3 +1,12 @@
+:root {
+    --tatu-nav-home: var(--tatu-blue);
+    --tatu-nav-quiz: var(--tatu-orange);
+    --tatu-nav-catalog: var(--tatu-green);
+    --tatu-nav-about: var(--tatu-purple);
+    --tatu-nav-profile: var(--tatu-brown);
+    --tatu-nav-active-text: var(--tatu-light);
+}
+
 .navbar {
     background-color: var(--tatu-nav-bg) !important;
     padding: 0;
@@ -62,7 +71,7 @@ nav > div > ul > li > a > i.fa-home {
 }
 
 @media all and (min-width: 969px) {
-    .nav-link:not(.tatu-active):hover {
+    .nav-link:not(.tatu-nav-active):hover {
         font-size: 30px;
         padding-bottom: 0.5rem;
     }
