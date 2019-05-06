@@ -1,3 +1,8 @@
+.navbar {
+    background-color: var(--tatu-nav-bg) !important;
+    padding: 0;
+}
+
 nav > div > ul {
     font-family: var(--tatu-font-playful);
 }
@@ -6,16 +11,18 @@ nav > div > ul {
     font-size: 26px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.15s;
 }
 
 nav > div > ul > li > a > i {
     font-size: 22px;
     margin-right: 12px;
-    vertical-align: -2px;
+    vertical-align: -1px;
 }
 
 nav > div > ul > li > a > i.fa-home {
-    vertical-align: -1px;
+    vertical-align: 0px;
 }
 
 @media all and (max-width: 767px) {
@@ -34,7 +41,7 @@ nav > div > ul > li > a > i.fa-home {
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 981px) {
+@media all and (min-width: 768px) and (max-width: 968px) {
     .nav-link {
         font-size: 22px;
     }
@@ -51,5 +58,12 @@ nav > div > ul > li > a > i.fa-home {
 
     a.navbar-brand > img {
         width: 3rem;
+    }
+}
+
+@media all and (min-width: 969px) {
+    .nav-link:not(.tatu-active):hover {
+        font-size: 30px;
+        padding-bottom: 0.5rem;
     }
 }
