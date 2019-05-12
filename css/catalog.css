@@ -17,10 +17,6 @@
     color: var(--tatu-green);
 }
 
-.tatu-tag {
-    /* color: var(--tatu-green-dark-xx); */
-}
-
 .page-item > a:hover,
 .page-link:hover > span,
 .tatu-tag:hover,
@@ -28,17 +24,13 @@
     color: var(--tatu-darker-green);
 }
 
+.breadcrumb-item:not(.active) > a {
+    color: var(--tatu-orange);
+}
+
 .tatu-view-gallery,
 .tatu-view-gallery:hover {
     color: var(--tatu-darker-orange);
-}
-
-.tatu-rating-wrapper > i {
-    /* color: var(--tatu-gold-light); */
-}
-
-.tatu-rule {
-    /* background-color: var(--tatu-green-light-x) !important; */
 }
 
 .page-item.active > a,
@@ -67,6 +59,10 @@
 .custom-control-input:active ~ .custom-control-label::before,
 #tatu-btn-filter:hover {
     background-color: var(--tatu-darker-orange) !important;
+}
+
+.breadcrumb {
+    background-color: transparent;
 }
 
 .form-control:focus {
