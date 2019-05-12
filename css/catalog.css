@@ -1,7 +1,7 @@
 @import "multipage/main.css";
 
 ::-webkit-scrollbar-track {
-    background: var(--tatu-green-light-x);
+    background: var(--tatu-green);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -9,27 +9,12 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--tatu-green-dark-x);
+    /* background: var(--tatu-green-dark-x); */
 }
 
 .tatu-view-gallery > i,
 .tatu-view-gallery:hover > i {
     color: inherit;
-}
-
-form[name="tatu-filter"],
-.custom-control-input,
-.dropdown-item,
-.dropdown-item:hover,
-#tatu-btn-filter,
-#tatu-btn-filter > i,
-#tatu-btn-filter:hover,
-#tatu-btn-filter:hover > i,
-#tatu-btn-search > i,
-#tatu-btn-search:hover > i,
-#tatu-dd-sort,
-#tatu-dd-sort:hover {
-    color: var(--tatu-light);
 }
 
 .page-item:not(.disabled) > a,
@@ -38,24 +23,22 @@ form[name="tatu-filter"],
 }
 
 .tatu-tag {
-    color: var(--tatu-green-dark-xx);
+    /* color: var(--tatu-green-dark-xx); */
 }
 
 .page-item > a:hover,
 .page-link:hover > span,
 .tatu-tag:hover,
 #tatu-btn-toggle-fav:hover > i {
-    color: var(--tatu-green-dark-xxx);
+    color: var(--tatu-darker-green);
 }
 
 .tatu-rating-wrapper > i {
-    color: var(--tatu-gold-light);
+    /* color: var(--tatu-gold-light); */
 }
 
-.tatu-rule,
-.custom-control-input:not(:checked):hover ~ .custom-control-label::before,
-.custom-control-input:active ~ .custom-control-label::before {
-    background-color: var(--tatu-green-light-x) !important;
+.tatu-rule {
+    /* background-color: var(--tatu-green-light-x) !important; */
 }
 
 .page-item.active > a,
@@ -66,21 +49,24 @@ form[name="tatu-filter"],
     background-color: var(--tatu-green) !important;
 }
 
-#tatu-btn-filter {
-    background-color: var(--tatu-green-dark-x);
-}
-
-.custom-control-input:checked ~ .custom-control-label::before,
-.dropdown-item:hover {
-    background-color: var(--tatu-green-dark-xx);
-}
-
+.dropdown-item:hover,
 .page-item.active > a:hover,
 .dropdown-item:active,
-#tatu-btn-filter:hover,
 #tatu-btn-search:hover,
 #tatu-dd-sort:hover {
-    background-color: var(--tatu-green-dark-xxx) !important;
+    background-color: var(--tatu-darker-green) !important;
+}
+
+.custom-control-input:not(:checked):hover ~ .custom-control-label::before,
+.custom-control-input:checked ~ .custom-control-label::before,
+#tatu-btn-filter {
+    background-color: var(--tatu-orange);
+}
+
+.custom-control-input:checked:hover ~ .custom-control-label::before,
+.custom-control-input:active ~ .custom-control-label::before,
+#tatu-btn-filter:hover {
+    background-color: var(--tatu-darker-orange) !important;
 }
 
 .form-control:focus {
@@ -90,7 +76,7 @@ form[name="tatu-filter"],
 .custom-control-input ~ .custom-control-label::before,
 .custom-control-input:checked ~ .custom-control-label::before,
 .dropdown-menu {
-    border-color: var(--tatu-green-dark-xxx) !important;
+    border-color: var(--bootstrap-light) !important;
 }
 
 .page-item > a {
@@ -99,7 +85,7 @@ form[name="tatu-filter"],
 }
 
 .page-item.active > a {
-    border-color: var(--tatu-green-dark) !important;
+    /* border-color: var(--tatu-green-dark) !important; */
     border-radius: 4px;
 }
 
@@ -120,7 +106,7 @@ form[name="tatu-filter"],
     height: 200px;
     width: 100%;
     overflow: hidden;
-    border: 6px solid var(--tatu-green-light-x);
+    /* border: 6px solid var(--tatu-green-light-x); */
     text-align: center;
 }
 
