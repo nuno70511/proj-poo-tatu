@@ -1,17 +1,5 @@
 @import "multipage/main.css";
 
-::-webkit-scrollbar-track {
-    background: var(--tatu-green);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--tatu-green);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    /* background: var(--tatu-green-dark-x); */
-}
-
 .page-item:not(.disabled) > a,
 #tatu-btn-toggle-fav > i {
     color: var(--tatu-green);
