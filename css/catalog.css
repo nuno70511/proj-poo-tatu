@@ -23,7 +23,6 @@
     color: var(--tatu-darker-orange);
 }
 
-.page-item.active > a,
 .container,
 .dropdown-menu,
 #tatu-btn-search,
@@ -33,19 +32,20 @@
 }
 
 .dropdown-item:hover,
-.page-item.active > a:hover,
 .dropdown-item:active,
 #tatu-btn-search:hover,
 #tatu-dd-sort:hover {
     background-color: var(--tatu-darker-green) !important;
 }
 
+.page-item.active > a,
 .custom-control-input:not(:checked):hover ~ .custom-control-label::before,
 .custom-control-input:checked ~ .custom-control-label::before,
 #tatu-btn-filter {
-    background-color: var(--tatu-orange);
+    background-color: var(--tatu-orange) !important;
 }
 
+.page-item.active > a:hover,
 .custom-control-input:checked:hover ~ .custom-control-label::before,
 .custom-control-input:active ~ .custom-control-label::before,
 #tatu-btn-filter:hover {
