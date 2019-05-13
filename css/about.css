@@ -1,18 +1,13 @@
 @import "multipage/main.css";
 
-div.row img {
+.row img {
     width: 20rem;
 }
 
-div.row p {
-    color: var(--tatu-purple-dark);
+h3 {
+    color: var(--tatu-blue);
 }
 
-div.row h3 {
-    color: var(--tatu-purple-dark-xx);
+#tatu-btn-form {
+    background-color: var(--tatu-blue);
 }
-
-div.row a {
-    color: var(--tatu-purple);
-}
-
