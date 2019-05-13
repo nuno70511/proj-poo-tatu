@@ -26,44 +26,40 @@
   <link rel="stylesheet" href="../css/catalog.css">
 </head>
 
-<body class="bg-light">
+<body class="bg-light pt-5">
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand ml-3 ml-md-5 p-0" href="home.html">
-      <img src="../img/logo.svg" width="38rem">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow">
+    <a class="navbar-brand ml-3 ml-md-5 d-flex align-items-center" href="home.html">
+      <img src="../img/logo.svg" width="36">
+      <span class="ml-3 tatu-font-brand tatu-fontSize-brand">tatu</span>
     </a>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#tatu-navbar"
       aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav ml-auto mt-2 mb-2 mt-md-0 mb-md-0">
-        <li class="nav-item mx-0 ml-md-5 mr-md-4">
-          <a class="nav-link" href="home.html" style="color: var(--tatu-nav-home)"><i class="fas fa-home"
-              aria-hidden="true"></i>home <span class="sr-only">(currsent)</span></a>
+    <div class="collapse navbar-collapse" id="tatu-navbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ml-md-5 mr-md-4">
+          <a class="nav-link tatu-fontSize-big" href="quiz.html" style="color: var(--tatu-yellow)">Jogar o quiz<i
+              class="fas fa-play ml-3" aria-hidden="true"></i></a>
         </li>
-        <li class="nav-item mx-0 mx-md-4">
-          <a class="nav-link" href="quiz.html" style="color: var(--tatu-nav-quiz)"><i class="fas fa-play"
-              aria-hidden="true"></i>quiz</a>
+        <li class="nav-item ml-md-4">
+          <a class="nav-link tatu-fontSize-big" href="catalog.html" style="color: var(--tatu-green); border-bottom: 2px solid var(--tatu-green);">Ver
+            o catálogo<i class="fas fa-paw ml-3" aria-hidden="true"></i></a>
         </li>
-        <li class="nav-item mx-0 mx-md-4">
-          <a class="nav-link tatu-nav-active" href="catalog.html"
-            style="background-color: var(--tatu-nav-catalog); color: var(--tatu-nav-active-text)"><i class="fas fa-paw"
-              aria-hidden="true"></i>catálogo</a>
-        </li>
-        <li class="nav-item mx-0 mx-md-4">
-          <a class="nav-link" href="about.html" style="color: var(--tatu-nav-about)"><i class="fas fa-info-circle"
-              aria-hidden="true"></i>sobre</a>
-        </li>
-        <li class="nav-item mx-0 ml-md-4 mr-md-5">
-          <a class="nav-link" href="profile.html" style="color: var(--tatu-nav-profile)"><i class="fas fa-user-circle"
-              aria-hidden="true"></i>perfil</a>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link tatu-fontSize-big mr-md-4" href="profile.html" style="color: var(--tatu-orange)">Bem
+            vindo,&nbsp;<span>utilizador</span><i class="fas fa-user-circle ml-3" aria-hidden="true"></i></a>
         </li>
       </ul>
     </div>
+    <a id="tatu-tooltip-info" class="nav-link tatu-fontSize-big mr-md-5" href="about.html" data-toggle="tooltip"
+        title="Informações" style="color: var(--tatu-blue)"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
   </nav>
 
-  <div class="container-fluid">
+  <div class="container-fluid mt-5">
     <div class="row mt-2 mt-lg-4 col-12 col-lg-9 offset-lg-3">
       <nav aria-label="breadcrumb">
         <ol class="pl-0 breadcrumb">
@@ -371,6 +367,10 @@
           items: 6
         }
       }
+    });
+
+    $(document).ready(function () {
+      $("#tatu-tooltip-info").tooltip();
     });
   </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

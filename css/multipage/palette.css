@@ -1,10 +1,13 @@
 :root {
-    --tatu-nav-bg: #F4D7BC;
+    --tatu-brand-primary: #E4C49C;
 
     --tatu-green: #8CBD5E;
     --tatu-darker-green: #7BAD52;
     --tatu-orange: #E0824C;
     --tatu-darker-orange: #C46A38;
+    --tatu-yellow: #FFAA01;
+    --tatu-blue: #1D70C1;
+    --tatu-red: #E2433D;
 
     --tatu-correct: #28D38C;
     --tatu-wrong: #F37876;
