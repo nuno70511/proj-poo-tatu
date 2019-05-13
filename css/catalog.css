@@ -73,11 +73,6 @@
     border-radius: 4px;
 }
 
-.tatu-sidebar-title {
-    font-family: var(--tatu-font-playful);
-    font-size: 20px;
-}
-
 #tatu-txt-search {
     display: inline-block;
 }

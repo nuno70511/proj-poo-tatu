@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Montserrat|Handlee');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Varela+Round');
 
 :root {
-    --tatu-font-regular: "Montserrat", sans-serif;
-    --tatu-font-playful: "Handlee", sans-serif;
+    --tatu-font-UI: "Montserrat", sans-serif;
+    --tatu-font-playful: "Varela Round", sans-serif;
 }
 
 body {
-    font-family: var(--tatu-font-regular);
+    font-family: var(--tatu-font-UI);
 }
 
-h3 {
-    font-family: var(--tatu-font-playful);
+.tatu-font-playful {
+    font-family: var(--tatu-font-playful) !important;
 }
 
-a {
-    font-style: italic;
+.tatu-fontSize-big {
+    font-size: 20px;
 }
