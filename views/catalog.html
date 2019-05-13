@@ -72,19 +72,17 @@
         </ol>
       </nav>
     </div>
-    <div class="row mb-1 mt-lg-0 mb-lg-5">
+    <div class="row mb-1 mt-lg-0 mb-lg-3">
       <div class="col-12 col-md-6 col-lg-3 offset-lg-3 pt-lg-3">
         <span class="form-group">
           <label for="tatu-txt-search" class="tatu-font-playful">Procurar:</label>
-          <input type="text" class="col-7 col-lg-7 form-control form-control-sm ml-2" id="tatu-txt-search"
-            aria-describedby="tatu-search-help" placeholder="Escreve aqui">
-          <small id="tatu-search-help" class="position-absolute form-text text-muted">Escreve o nome do animal que
-            desejas encontrar</small>
+          <input type="text" class="col-10 col-md-7 form-control form-control-sm ml-md-2" id="tatu-txt-search"
+            aria-describedby="tatu-search-help" placeholder="Escreve o nome do animal">
         </span>
-        <button id="tatu-btn-search" type="button" class="btn btn-sm ml-2 text-light"><i
+        <button id="tatu-btn-search" type="button" class="btn btn-sm ml-md-2 text-light"><i
             class="fas fa-search"></i></button>
       </div>
-      <div class="col-12 mt-5 col-md-6 mt-md-0 col-lg-3 d-flex align-items-center justify-content-lg-center">
+      <div class="col-12 mt-4 col-md-6 mt-md-0 col-lg-3 d-flex align-items-center justify-content-lg-center">
         <span class="tatu-font-playful">Ordenar:</span>
         <span class="dropdown open ml-2">
           <button class="btn btn-sm dropdown-toggle text-light" type="button" id="tatu-dd-sort" data-toggle="dropdown"
@@ -92,12 +90,12 @@
             Numeração crescente
           </button>
           <div class="dropdown-menu text-light" aria-labelledby="tatu-dd-sort">
-            <button class="dropdown-item text-light" value="numUp">Numeração crescente</button>
-            <button class="dropdown-item text-light" value="numDown">Numeração decrescente</button>
-            <button class="dropdown-item text-light" value="alphUp">Ordem alfabética ascendente</button>
-            <button class="dropdown-item text-light" value="alphDown">Ordem alfabética descendente</button>
-            <button class="dropdown-item text-light" value="ratingUp">Pontuação ascendente</button>
-            <button class="dropdown-item text-light" value="ratingDown">Pontuação descendente</button>
+            <button class="dropdown-item btn-sm text-light" value="numUp">Numeração crescente</button>
+            <button class="dropdown-item btn-sm text-light" value="numDown">Numeração decrescente</button>
+            <button class="dropdown-item btn-sm text-light" value="alphUp">Ordem alfabética ascendente</button>
+            <button class="dropdown-item btn-sm text-light" value="alphDown">Ordem alfabética descendente</button>
+            <button class="dropdown-item btn-sm text-light" value="ratingUp">Pontuação ascendente</button>
+            <button class="dropdown-item btn-sm text-light" value="ratingDown">Pontuação descendente</button>
           </div>
         </span>
       </div>
@@ -106,9 +104,9 @@
         <button id="tatu-btn-toggle-fav" type="button" class="btn ml-2"><i class="fas fa-toggle-off"></i><i hidden
             class="fas fa-toggle-on"></i></button>
       </div>
-      <div id="tatu-btn-show-filters" class="col-12 mt-md-4 d-flex justify-content-start col-md-6 d-lg-none">
-        <button class="btn pl-0" type="button" data-toggle="collapse" data-target="#tatu-filter-container"
-          aria-expanded="false" aria-controls="tatu-filter-container">
+      <div class="col-12 mt-md-4 d-flex align-items-center col-md-6 d-lg-none">
+        <button id="tatu-btn-show-filters" class="btn btn-sm text-light" type="button" data-toggle="collapse"
+          data-target="#tatu-filter-container" aria-expanded="false" aria-controls="tatu-filter-container">
           Ver filtros
         </button>
       </div>
@@ -264,68 +262,68 @@
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-3">
         <div class="row d-flex justify-content-center justify-content-md-start">
-          <span class="card p-0 mb-2 mb-lg-5 col-sm-6 col-lg-4">
-            <div class="tatu-img-wrapper position-relative">
-              <img class="card-img-top" src="../img/catalog.html/lemuel-butler-515-unsplash.jpg" alt="">
-              <button type="button" class="btn btn-lg position-absolute tatu-view-gallery" data-toggle="modal"
-                data-target="#tatu-gallery">
-                Visualizar<i class="ml-2 fas fa-search-plus"></i>
-              </button>
+          <span class="mb-2 mb-lg-5 col-sm-6 col-lg-4">
+            <div class="card">
+              <div class="tatu-img-wrapper position-relative">
+                <img class="card-img-top" src="../img/catalog.html/lemuel-butler-515-unsplash.jpg" alt="">
+                <button type="button" class="btn btn-lg position-absolute tatu-view-gallery" data-toggle="modal"
+                  data-target="#tatu-gallery">
+                  Visualizar<i class="ml-2 fas fa-search-plus"></i>
+                </button>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <span class="mr-3 tatu-font-playful tatu-fontSize-big">001</span>
+                    <span class="tatu-font-playful tatu-fontSize-big">Leão</span>
+                  </div>
+                  <div class="ml-3 tatu-rating-wrapper">
+                    <span>4.1&nbsp;x</span>
+                    <i class="ml-1 fas fa-star"></i>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around">
+                  <button type="button" class="btn btn-sm pl-0 tatu-btn-show-details">detalhes<i
+                      class="fas fa-plus ml-1"></i></button>
+                  <button type="button" class="btn btn-sm pr-0 tatu-btn-add-fav">favorito<i
+                      class="far fa-star ml-1"></i></button>
+                </div>
+                <hr>
+                <div class="owl-carousel">
+                  <button type="button" class="btn btn-sm tatu-tag">#feroz</button>
+                  <button type="button" class="btn btn-sm tatu-tag">#rugido</button>
+                  <button type="button" class="btn btn-sm tatu-tag">#solitário</button>
+                  <button type="button" class="btn btn-sm tatu-tag">#reidaselva</button>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <div class="d-flex justify-content-between">
-                <span>
-                  <span class="mr-3 tatu-font-playful tatu-fontSize-big">001</span>
-                  <span class="tatu-font-playful tatu-fontSize-big">Leão</span>
-                </span>
-                <span class="ml-3 tatu-rating-wrapper">
-                  <span>4.1&nbsp;x</span>
-                  <i class="ml-1 fas fa-star"></i>
-                </span>
-              </div>
-              <hr>
-              <div class="my-3 d-flex justify-content-between">
-                <button type="button" class="btn btn-sm pl-0 tatu-btn-show-details">detalhes<i
-                    class="fas fa-plus ml-1"></i></button>
-                <button type="button" class="btn btn-sm pl-0 tatu-btn-comment">comentar<i
-                    class="far fa-comments ml-1"></i></button>
-                <button type="button" class="btn btn-sm pr-0 tatu-btn-add-fav">favorito<i
-                    class="far fa-star ml-1"></i></button>
-              </div>
-              <hr>
-              <div class="owl-carousel">
-                <button type="button" class="btn btn-sm tatu-tag">#feroz</button>
-                <button type="button" class="btn btn-sm tatu-tag">#rugido</button>
-                <button type="button" class="btn btn-sm tatu-tag">#solitário</button>
-                <button type="button" class="btn btn-sm tatu-tag">#reidaselva</button>
-              </div>
           </span>
         </div>
       </div>
     </div>
-  </div>
-  <div class="row mt-2 mt-lg-1">
-    <div class="col-12 col-lg-11">
-      <nav aria-label="Catalog navigation">
-        <ul class="pagination justify-content-end">
-          <li class="page-item disabled">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">Anterior</span>
-              <span class="sr-only">Previous</span>
-            </a>
-          </li>
-          <li class="page-item active rounded"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">Próxima</span>
-              <span class="sr-only">Next</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <div class="row mt-2 mt-lg-1">
+      <div class="col-12 col-lg-11">
+        <nav aria-label="Catalog navigation">
+          <ul class="pagination justify-content-end">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">Anterior</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item active rounded"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">Próxima</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
-  </div>
   </div>
 
   <div class="modal fade" id="tatu-gallery" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"

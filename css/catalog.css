@@ -1,6 +1,7 @@
 @import "multipage/main.css";
 
 .page-item:not(.disabled) > a,
+.tatu-tag,
 #tatu-btn-toggle-fav > i {
     color: var(--tatu-green);
 }
@@ -12,6 +13,7 @@
     color: var(--tatu-darker-green);
 }
 
+.card-body > div > div:first-child,
 .breadcrumb-item:not(.active) > a {
     color: var(--tatu-orange);
 }
@@ -25,7 +27,8 @@
 .container,
 .dropdown-menu,
 #tatu-btn-search,
-#tatu-dd-sort {
+#tatu-dd-sort,
+#tatu-btn-show-filters {
     background-color: var(--tatu-green) !important;
 }
 
@@ -105,13 +108,6 @@
 
 .custom-control-label {
     cursor: pointer;
-}
-
-@media all and (max-width: 575px) {
-    body,
-    #tatu-btn-show-filters > button {
-        font-size: 0.8rem;
-    }
 }
 
 @media all and (max-width: 991px){
