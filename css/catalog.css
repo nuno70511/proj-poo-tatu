@@ -27,7 +27,7 @@
     color: var(--tatu-yellow);
 }
 
-.dropdown-menu,
+div[aria-labelledby="tatu-dd-sort"],
 #tatu-filter-container,
 #tatu-btn-search,
 #tatu-dd-sort,
@@ -35,8 +35,8 @@
     background-color: var(--tatu-green) !important;
 }
 
-.dropdown-item:hover,
-.dropdown-item:active,
+div[aria-labelledby="tatu-dd-sort"] > .dropdown-item:hover,
+div[aria-labelledby="tatu-dd-sort"] > .dropdown-item:active,
 #tatu-btn-search:hover,
 #tatu-dd-sort:hover {
     background-color: var(--tatu-darker-green) !important;
@@ -66,7 +66,7 @@
 
 .custom-control-input ~ .custom-control-label::before,
 .custom-control-input:checked ~ .custom-control-label::before,
-.dropdown-menu {
+div[aria-labelledby="tatu-dd-sort"] {
     border-color: var(--bootstrap-light) !important;
 }
 

@@ -51,15 +51,21 @@
       <ul class="navbar-nav ml-auto">
         <li id="tatu-show-sessionMenu" class="nav-item mr-md-4">
           <div class="dropdown">
-            <a id="tatu-navLink-user" class="nav-link btn btn-sm bg-transparent tatu-fontSize-big" href="profile.html"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">utilizador<i
-                class="fas fa-user-circle ml-3" aria-hidden="true"></i></a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item btn-sm" href="#"><i class="fas fa-user-cog mr-2"></i>Conta</a>
-              <a class="dropdown-item btn-sm" href="#"><i class="fas fa-flag-checkered mr-2"></i>Progresso</a>
-              <a class="dropdown-item btn-sm" href="#"><i class="fas fa-trophy mr-2"></i>Troféus</a>
+            <div class="btn-group">
+              <a id="tatu-navLink-user" class="nav-link btn btn-sm bg-transparent tatu-fontSize-big" href="profile.html"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">utilizador<i
+                  class="fas fa-user-circle ml-3" aria-hidden="true"></i></a>
+              <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split d-lg-none ml-2"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            </div>
+            <div class="dropdown-menu" aria-labelledby="tatu-navLink-user">
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-user-cog mr-2"></i>Conta</a>
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-flag-checkered mr-2"></i>Progresso</a>
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-trophy mr-2"></i>Troféus</a>
               <hr>
-              <a class="dropdown-item btn-sm" href="#"><i class="fas fa-sign-out-alt mr-2"></i>Sair</a>
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-sign-out-alt mr-2"></i>Sair</a>
             </div>
           </div>
         </li>
@@ -80,17 +86,17 @@
     </div>
     <div class="row mb-1 mt-lg-0 mb-lg-3">
       <div class="col-12 col-md-6 col-lg-3 offset-lg-3 pt-lg-3">
-        <span class="form-group">
+        <div class="form-group">
           <label for="tatu-txt-search" class="tatu-font-playful">Procurar:</label>
           <input type="text" class="col-10 col-md-7 form-control form-control-sm ml-md-2" id="tatu-txt-search"
             aria-describedby="tatu-search-help" placeholder="Escreve o nome do animal">
-        </span>
-        <button id="tatu-btn-search" type="button" class="btn btn-sm ml-md-2 text-light"><i
-            class="fas fa-search"></i></button>
+          <button id="tatu-btn-search" type="button" class="btn btn-sm ml-md-2 text-light"><i
+              class="fas fa-search"></i></button>
+        </div>
       </div>
       <div class="col-12 mt-4 col-md-6 mt-md-0 col-lg-3 d-flex align-items-center justify-content-lg-center">
         <span class="tatu-font-playful">Ordenar:</span>
-        <span class="dropdown open ml-2">
+        <div class="dropdown open ml-2">
           <button class="btn btn-sm dropdown-toggle text-light" type="button" id="tatu-dd-sort" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Numeração crescente
@@ -103,7 +109,7 @@
             <button class="dropdown-item btn-sm text-light" value="ratingUp">Pontuação ascendente</button>
             <button class="dropdown-item btn-sm text-light" value="ratingDown">Pontuação descendente</button>
           </div>
-        </span>
+        </div>
       </div>
       <div class="col-12 mt-2 col-md-6 mt-md-4 col-lg-2 mt-lg-0 d-flex align-items-center justify-content-lg-end">
         <span class="tatu-font-playful">Ver só os favoritos:</span>

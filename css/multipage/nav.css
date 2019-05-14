@@ -19,11 +19,20 @@
     color: var(--tatu-green);
 }
 
+#tatu-navLink-user ~ button,
 #tatu-navLink-user {
     color: var(--tatu-orange);
 }
 
-#tatu-show-sessionMenu:hover .dropdown-menu {
+div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
+    color: var(--bootstrap-light) !important;    
+}
+
+div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
+    background-color: var(--tatu-green) !important;
+}
+
+#tatu-show-sessionMenu:hover div[aria-labelledby="tatu-navLink-user"] {
     display: block;
 }
 
