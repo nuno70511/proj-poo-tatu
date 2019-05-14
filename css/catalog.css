@@ -27,8 +27,8 @@
     color: var(--tatu-yellow);
 }
 
-.container,
 .dropdown-menu,
+#tatu-filter-container,
 #tatu-btn-search,
 #tatu-dd-sort,
 #tatu-btn-show-filters {
@@ -76,7 +76,6 @@
 }
 
 .page-item.active > a {
-    /* border-color: var(--tatu-green-dark) !important; */
     border-radius: 4px;
 }
 
@@ -106,27 +105,27 @@
     display: block;
 }
 
-.container {
+#tatu-filter-container {
     border-radius: 0;
+    top: 1.5rem;
 }
 
 .custom-control-label {
     cursor: pointer;
 }
 
-@media all and (max-width: 991px){
-    .container > form {
-        top: 1.5rem;
-    }
+#tatu-btn-filter {
+    top: 0;
+    right: 0;
+}
 
-    #tatu-btn-filter {
-        top: 0;
-        right: 0;
-    }
+/* Criada automaticamente pelo owlCarousel; */
+.owl-dots {
+    display: none;
 }
 
 @media all and (min-width: 991px){
-    .container {
+    #tatu-filter-container {
         height: 540px;
         position: fixed;
         left: 0;
@@ -136,12 +135,13 @@
         border-bottom-left-radius: 0%;
     }
 
-    .container > form {
+    #tatu-filter-container > form {
         overflow: auto;
         height: 450px;
+        top: 0;
     }
     
-    .container > form::-webkit-scrollbar {
+    #tatu-filter-container > form::-webkit-scrollbar {
         width: 0;
     }
 
