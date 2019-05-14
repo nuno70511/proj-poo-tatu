@@ -1,5 +1,6 @@
 @import "multipage/main.css";
 
+.tatu-aID-wrapper,
 .page-item:not(.disabled) > a,
 .tatu-tag,
 #tatu-btn-toggle-fav > i {
@@ -13,7 +14,6 @@
     color: var(--tatu-darker-green);
 }
 
-.card-body > div > div:first-child,
 .breadcrumb-item:not(.active) > a {
     color: var(--tatu-orange);
 }
@@ -21,6 +21,10 @@
 .tatu-view-gallery,
 .tatu-view-gallery:hover {
     color: var(--tatu-darker-orange);
+}
+
+.tatu-rating-wrapper > i {
+    color: var(--tatu-yellow);
 }
 
 .container,
