@@ -28,7 +28,7 @@
 
 <body class="bg-light pt-5">
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow">
+  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top shadow">
     <a class="navbar-brand ml-3 ml-md-5 d-flex align-items-center" href="home.html">
       <img src="../img/logo.svg" width="32">
       <span class="ml-3 tatu-font-brand tatu-fontSize-brand">tatu</span>
@@ -40,24 +40,33 @@
     <div class="collapse navbar-collapse" id="tatu-navbar">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item ml-md-5 mr-md-4">
-          <a class="nav-link tatu-fontSize-big" href="quiz.html" style="color: var(--tatu-yellow)">Jogar o quiz<i
+          <a id="tatu-navLink-quiz" class="nav-link tatu-fontSize-big" href="quiz.html">Jogar o quiz<i
               class="fas fa-play ml-3" aria-hidden="true"></i></a>
         </li>
         <li class="nav-item ml-md-4">
-          <a class="nav-link tatu-fontSize-big" href="catalog.html"
-            style="color: var(--tatu-green); border-bottom: 2px solid var(--tatu-green);">Ver
+          <a id="tatu-navLink-catalog" class="nav-link tatu-fontSize-big" href="catalog.html">Ver
             o catálogo<i class="fas fa-paw ml-3" aria-hidden="true"></i></a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link tatu-fontSize-big mr-md-4" href="profile.html" style="color: var(--tatu-orange)">Bem
-            vindo,&nbsp;<span>utilizador</span><i class="fas fa-user-circle ml-3" aria-hidden="true"></i></a>
+        <li id="tatu-show-sessionMenu" class="nav-item mr-md-4">
+          <div class="dropdown">
+            <a id="tatu-navLink-user" class="nav-link btn btn-sm bg-transparent tatu-fontSize-big" href="profile.html"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">utilizador<i
+                class="fas fa-user-circle ml-3" aria-hidden="true"></i></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item btn-sm" href="#"><i class="fas fa-user-cog mr-2"></i>Conta</a>
+              <a class="dropdown-item btn-sm" href="#"><i class="fas fa-flag-checkered mr-2"></i>Progresso</a>
+              <a class="dropdown-item btn-sm" href="#"><i class="fas fa-trophy mr-2"></i>Troféus</a>
+              <hr>
+              <a class="dropdown-item btn-sm" href="#"><i class="fas fa-sign-out-alt mr-2"></i>Sair</a>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
-    <a id="tatu-tooltip-info" class="nav-link tatu-fontSize-big mr-md-5" href="about.html" data-toggle="tooltip"
-      title="Informações" style="color: var(--tatu-blue)"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
+    <a id="tatu-navLink-about" class="nav-link tatu-fontSize-big mr-md-5" href="about.html" data-toggle="tooltip"
+      title="Informações"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
   </nav>
 
   <div class="container-fluid mt-5">
@@ -371,7 +380,7 @@
     });
 
     $(document).ready(function () {
-      $("#tatu-tooltip-info").tooltip();
+      $("#tatu-navLink-about").tooltip();
     });
   </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

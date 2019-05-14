@@ -1,3 +1,7 @@
+.navbar {
+    user-select: none;
+}
+
 .navbar-nav {
     font-family: var(--tatu-font-playful);
 }
@@ -7,9 +11,24 @@
     vertical-align: -1px;
 }
 
-.nav-link:not(#tatu-tooltip-info):hover {
+#tatu-navLink-quiz {
+    color: var(--tatu-yellow);
+}
+
+#tatu-navLink-catalog {
+    color: var(--tatu-green);
+}
+
+#tatu-navLink-user {
+    color: var(--tatu-orange);
+}
+
+#tatu-show-sessionMenu:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-link:not(#tatu-navLink-about):hover {
     color: var(--tatu-red) !important;
-    border-bottom: 2px solid var(--tatu-red) !important;
 }
 
 .nav-link > i.fa-info-circle {
