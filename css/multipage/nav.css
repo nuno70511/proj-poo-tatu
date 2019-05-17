@@ -25,7 +25,7 @@
 }
 
 div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
-    color: var(--bootstrap-light) !important;    
+    color: var(--light);    
 }
 
 div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {

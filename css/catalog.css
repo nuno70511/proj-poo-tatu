@@ -67,7 +67,7 @@ div[aria-labelledby="tatu-dd-sort"] > .dropdown-item:active,
 .custom-control-input ~ .custom-control-label::before,
 .custom-control-input:checked ~ .custom-control-label::before,
 div[aria-labelledby="tatu-dd-sort"] {
-    border-color: var(--bootstrap-light) !important;
+    border-color: var(--light);
 }
 
 .page-item > a {

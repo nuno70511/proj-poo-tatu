@@ -11,7 +11,4 @@
 
     --tatu-correct: #28D38C;
     --tatu-wrong: #F37876;
-
-    /* Quando não for possível usar as classes bg-light ou text-light */
-    --bootstrap-light: #f8f9fa;
 }
