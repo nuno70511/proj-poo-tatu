@@ -1,1 +1,26 @@
 @import "multipage/main.css";
+
+.tatu-btn-answer {
+    background-color: var(--tatu-green);
+    width: 18rem;
+}
+
+.tatu-answer-letter,
+.tatu-btn-answer:hover,
+#tatu-btn-next {
+    background-color: var(--tatu-orange);
+}
+
+#tatu-question-content {
+    font-size: 1.2rem;
+}
+
+#tatu-question-aid > img,
+#tatu-question-aid > iframe {
+    width: 100%;
+}
+
+.tatu-answer-letter {
+    width: 2rem;
+    height: 2rem;
+}

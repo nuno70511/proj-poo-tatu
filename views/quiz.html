@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="../css/quiz.css">
 </head>
 
-<body>
+<body class="bg-light pt-5">
 
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow">
     <a class="navbar-brand ml-3 ml-md-5 d-flex align-items-center" href="home.html">
@@ -56,6 +56,62 @@
     <a id="tatu-tooltip-info" class="nav-link tatu-fontSize-big mr-md-5" href="about.html" data-toggle="tooltip"
       title="Informações" style="color: var(--tatu-blue)"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
   </nav>
+
+  <div class="container-fluid mt-5">
+    <div class="row py-3">
+      <div class="col-12 col-md-7 col-lg-6 offset-lg-1">
+        <div class="d-md-flex justify-content-between tatu-font-playful">
+          <div>
+            <h3 id="tatu-question-num" class="d-inline-block">Pergunta 1 /</h3>
+            <span>10</span>
+          </div>
+          <h5 id="tatu-question-timer">
+            <span class="mr-3">Tempo:</span> 01:00
+          </h5>
+        </div>
+        <br>
+        <br>
+        <div id="tatu-question-content" class="mb-4 mb-lg-0">Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod
+          tempor incididunt
+          ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </div>
+      </div>
+      <div id="tatu-question-aid" class="col-12 col-md-5 col-lg-4">
+        <img class="rounded" src="../img/catalog.html/lemuel-butler-515-unsplash.jpg" alt="">
+      </div>
+    </div>
+    <div class="row mt-3 mt-lg-5">
+      <div class="col-12 col-md-4 offset-md-1 col-lg-2 offset-lg-1 my-2 my-lg-0 d-flex justify-content-center d-md-block">
+        <button type="button" class="btn btn-lg tatu-btn-answer text-light text-left" value="a"><span
+            class="mr-3">A.</span>Crocodilo</button>
+      </div>
+      <div class="col-12 col-md-4 offset-md-1 col-lg-2 offset-lg-1 my-2 my-lg-0 d-flex justify-content-center d-md-block">
+        <button type="button" class="btn btn-lg tatu-btn-answer text-light text-left" value="b"><span
+            class="mr-3">B.</span>Camelo</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-11 col-lg-4 offset-lg-7 d-flex justify-content-center justify-content-md-end">
+        <button id="tatu-btn-next" type="button" class="btn btn-lg text-light text-left disabled">Próxima pergunta<i
+            class="ml-5 fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4 offset-md-1 col-lg-2 offset-lg-1 my-2 my-lg-0 d-flex justify-content-center d-md-block">
+        <button type="button" class="btn btn-lg tatu-btn-answer text-light text-left" value="c"><span
+            class="mr-3">C.</span>Leão</button>
+      </div>
+      <div class="col-12 col-md-4 offset-md-1 col-lg-2 offset-lg-1 my-2 my-lg-0 d-flex justify-content-center d-md-block">
+        <button type="button" class="btn btn-lg tatu-btn-answer text-light text-left" value="d"><span
+            class="mr-3">D.</span>Girafa</button>
+      </div>
+    </div>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
