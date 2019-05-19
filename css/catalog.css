@@ -28,7 +28,7 @@
 }
 
 div[aria-labelledby="tatu-dd-sort"],
-#tatu-filter-container,
+#tatu-filter-wrapper,
 #tatu-btn-search,
 #tatu-dd-sort,
 #tatu-btn-show-filters {
@@ -105,7 +105,7 @@ div[aria-labelledby="tatu-dd-sort"] {
     display: block;
 }
 
-#tatu-filter-container {
+#tatu-filter-wrapper {
     border-radius: 0;
     top: 1.5rem;
 }
@@ -125,7 +125,7 @@ div[aria-labelledby="tatu-dd-sort"] {
 }
 
 @media all and (min-width: 991px){
-    #tatu-filter-container {
+    #tatu-filter-wrapper {
         height: 540px;
         position: fixed;
         left: 0;
@@ -135,13 +135,13 @@ div[aria-labelledby="tatu-dd-sort"] {
         border-bottom-left-radius: 0%;
     }
 
-    #tatu-filter-container > form {
+    #tatu-filter-wrapper > form {
         overflow: auto;
         height: 450px;
         top: 0;
     }
     
-    #tatu-filter-container > form::-webkit-scrollbar {
+    #tatu-filter-wrapper > form::-webkit-scrollbar {
         width: 0;
     }
 
