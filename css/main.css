@@ -97,16 +97,16 @@ div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: var(--gray);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: var(--gray-dark);
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--white);
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
