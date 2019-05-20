@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha|Montserrat|Varela+Round');
+
+:root {
+    --tatu-brand-primary: #E4C49C;
+
+    --tatu-green: #8CBD5E;
+    --tatu-darker-green: #7BAD52;
+    --tatu-orange: #E0824C;
+    --tatu-darker-orange: #C46A38;
+    --tatu-yellow: #FFAA01;
+    --tatu-blue: #1D70C1;
+    --tatu-red: #E2433D;
+
+    --tatu-correct: #28D38C;
+    --tatu-wrong: #F37876;
+
+    --tatu-font-brand: "Sriracha", cursive;
+    --tatu-font-UI: "Montserrat", sans-serif;
+    --tatu-font-playful: "Varela Round", sans-serif;
+}
+
+body {
+    font-family: var(--tatu-font-UI);
+}
+
+.tatu-font-brand {
+    font-family: var(--tatu-font-brand);
+    letter-spacing: 2px;
+    color: var(--tatu-brand-primary);
+}
+
+.tatu-fontSize-brand {
+    font-size: 30px;
+}
+
+.tatu-font-playful {
+    font-family: var(--tatu-font-playful) !important;
+}
+
+.tatu-fontSize-big {
+    font-size: 20px;
+}
+
 .navbar {
     user-select: none;
     min-height: 84px;
@@ -47,6 +90,23 @@ div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
 
 #tatu-navLink-about > i.fa-info-circle {
     color: var(--tatu-blue);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
