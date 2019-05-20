@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener("DOMContentLoaded", function() {
   let mq = window.matchMedia("all and (max-width: 767px)");
   if (mq.matches) {
     renderSmallNav();
@@ -63,7 +63,7 @@ function renderSmallNav() {
       </ul>
     </div>
   `
-}
+};
 
 function renderBigNav() {
   document.querySelector("nav.navbar").innerHTML = `
@@ -112,4 +112,4 @@ function renderBigNav() {
     <a id="tatu-navLink-about" class="nav-link tatu-fontSize-big mr-1 mr-lg-5" href="about.html" data-toggle="tooltip"
       title="Informações"><i class="fas fa-info-circle" aria-hidden="true"></i></a>
     `
-}
+};
