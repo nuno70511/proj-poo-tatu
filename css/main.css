@@ -21,6 +21,8 @@
 
 body {
     font-family: var(--tatu-font-UI);
+    background-color: var(--light);
+    padding-top: 84px;
 }
 
 .tatu-font-brand {
@@ -68,7 +70,8 @@ body {
     color: var(--tatu-orange);
 }
 
-#tatu-navLink-about {
+#tatu-navLink-about,
+#tatu-navLink-about > i.fa-info-circle {
     color: var(--tatu-blue);
 }
 
@@ -86,10 +89,6 @@ div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
 
 .nav-link:not(#tatu-navLink-about):hover {
     color: var(--tatu-red) !important;
-}
-
-#tatu-navLink-about > i.fa-info-circle {
-    color: var(--tatu-blue);
 }
 
 ::-webkit-scrollbar {
