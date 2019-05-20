@@ -5,7 +5,6 @@
     width: 18rem;
 }
 
-.tatu-answer-letter,
 .tatu-btn-answer:hover,
 #tatu-btn-next {
     background-color: var(--tatu-orange);
@@ -20,7 +19,18 @@
     width: 100%;
 }
 
-.tatu-answer-letter {
-    width: 2rem;
-    height: 2rem;
+#tatu-quiz-wrapper {
+    border: 2px solid var(--tatu-yellow);
+}
+
+.tatu-timer-fixed {
+    position: fixed;
+    width: 90px;
+    height: 45px;
+    top: 90px;
+    left: 50%;
+    margin-left: -45px;
+    z-index: 1;
+    background-color: var(--white);
+    border: 2px solid  var(--tatu-red);
 }
