@@ -1,13 +1,10 @@
 @import "main.css";
 
 .row img {
-    width: 20rem;
+    max-width: 100%;
 }
 
-h3 {
+h3,
+.row b {
     color: var(--tatu-blue);
-}
-
-#tatu-btn-form {
-    background-color: var(--tatu-blue);
 }

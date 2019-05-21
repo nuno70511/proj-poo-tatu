@@ -36,7 +36,7 @@ function renderSmallNav() {
         <div class="dropdown-menu" aria-labelledby="tatu-navLink-user">
           <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-user-cog mr-2"></i>Conta</a>
           <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-flag-checkered mr-2"></i>Progresso</a>
-          <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-trophy mr-2"></i>Troféus</a>
+          <a class="dropdown-item btn-sm text-dark" href="#"><i class="far fa-lightbulb mr-2"></i>Sugerir animal</a>
           <hr>
           <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-sign-out-alt mr-2"></i>Sair</a>
         </div>
@@ -101,7 +101,7 @@ function renderBigNav() {
             <div class="dropdown-menu" aria-labelledby="tatu-navLink-user">
               <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-user-cog mr-2"></i>Conta</a>
               <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-flag-checkered mr-2"></i>Progresso</a>
-              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-trophy mr-2"></i>Troféus</a>
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="far fa-lightbulb mr-2"></i>Sugerir animal</a>
               <hr>
               <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-sign-out-alt mr-2"></i>Sair</a>
             </div>
