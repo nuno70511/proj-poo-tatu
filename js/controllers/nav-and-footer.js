@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-  let mq = window.matchMedia("all and (max-width: 767px)");
+document.addEventListener("DOMContentLoaded", function () {
+  const mq = window.matchMedia("all and (max-width: 767px)");
   if (mq.matches) {
     renderSmallNav();
   } else {
@@ -12,10 +12,25 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
       renderBigNav();
     }
+
+    setCssVarFooter();
   });
+
+  setCssVarNavbar();
+  setCssVarFooter();
 
   $("#tatu-navLink-about").tooltip();
 });
+
+function setCssVarNavbar() {
+  const navbarHeight = document.querySelector(".navbar").offsetHeight + "px";
+  document.documentElement.style.setProperty("--tatu-navbar-height", navbarHeight);
+}
+
+function setCssVarFooter() {
+  const footerHeight = document.querySelector(".footer").offsetHeight + "px";
+  document.documentElement.style.setProperty("--tatu-footer-height", footerHeight);
+}
 
 function renderSmallNav() {
   document.querySelector("nav.navbar").innerHTML = `

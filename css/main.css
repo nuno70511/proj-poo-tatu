@@ -27,8 +27,8 @@ html {
 body {
     font-family: var(--tatu-font-UI);
     background-color: var(--light);
-    padding-top: 84px;
-    margin-bottom: 60px;
+    padding-top: var(--tatu-navbar-height);
+    padding-bottom: var(--tatu-footer-height);
 }
 
 .tatu-font-brand {
@@ -101,8 +101,6 @@ div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
 }  
 
 ::-webkit-scrollbar {
