@@ -31,6 +31,10 @@ body {
     padding-bottom: var(--tatu-footer-height);
 }
 
+.container-fluid {
+    max-width: 1440px;
+}
+
 .tatu-font-brand {
     font-family: var(--tatu-font-brand);
     letter-spacing: 2px;
