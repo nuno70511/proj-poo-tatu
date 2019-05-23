@@ -41,7 +41,7 @@ function renderSmallNav() {
       <div class="dropdown">
         <div class="btn-group">
           <a id="tatu-navLink-user" class="nav-link btn btn-sm bg-transparent tatu-fontSize-big" href="profile.html"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+            aria-haspopup="true" aria-expanded="false"><i
               class="fas fa-user-circle" aria-hidden="true"></i></a>
           <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split d-lg-none"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -106,7 +106,7 @@ function renderBigNav() {
           <div class="dropdown">
             <div class="btn-group">
               <a id="tatu-navLink-user" class="nav-link btn btn-sm bg-transparent tatu-fontSize-big" href="profile.html"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">utilizador<i
+                aria-haspopup="true" aria-expanded="false">utilizador<i
                   class="fas fa-user-circle ml-3" aria-hidden="true"></i></a>
               <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split d-lg-none ml-2"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
