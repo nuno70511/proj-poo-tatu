@@ -49,11 +49,11 @@ function renderSmallNav() {
           </button>
         </div>
         <div class="dropdown-menu" aria-labelledby="tatu-navLink-user">
-          <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-user-cog mr-2"></i>Conta</a>
-          <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-flag-checkered mr-2"></i>Progresso</a>
-          <a class="dropdown-item btn-sm text-dark" href="#"><i class="far fa-lightbulb mr-2"></i>Sugerir animal</a>
+          <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-user-cog fa-fw mr-2"></i>Conta</a>
+          <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-flag-checkered fa-fw mr-2"></i>Progresso</a>
+          <a class="dropdown-item btn-sm text-dark" href="#"><i class="far fa-lightbulb fa-fw mr-2"></i>Sugerir animal</a>
           <hr>
-          <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-sign-out-alt mr-2"></i>Sair</a>
+          <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-sign-out-alt fa-fw mr-2"></i>Sair</a>
         </div>
       </div>
     </div>
@@ -114,11 +114,11 @@ function renderBigNav() {
               </button>
             </div>
             <div class="dropdown-menu" aria-labelledby="tatu-navLink-user">
-              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-user-cog mr-2"></i>Conta</a>
-              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-flag-checkered mr-2"></i>Progresso</a>
-              <a class="dropdown-item btn-sm text-dark" href="#"><i class="far fa-lightbulb mr-2"></i>Sugerir animal</a>
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-user-cog fa-fw mr-2"></i>Conta</a>
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-flag-checkered fa-fw mr-2"></i>Progresso</a>
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="far fa-lightbulb fa-fw mr-2"></i>Sugerir animal</a>
               <hr>
-              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-sign-out-alt mr-2"></i>Sair</a>
+              <a class="dropdown-item btn-sm text-dark" href="#"><i class="fas fa-sign-out-alt fa-fw mr-2"></i>Sair</a>
             </div>
           </div>
         </li>
