@@ -142,7 +142,11 @@ div[aria-labelledby="tatu-dd-sort"] {
     }
     
     #tatu-filter-wrapper > form::-webkit-scrollbar {
-        width: 0;
+        width: 6px;
+    }
+
+    #tatu-filter-wrapper > form::-webkit-scrollbar-thumb {
+        background: var(--tatu-darker-green);
     }
 
     #tatu-btn-filter {
