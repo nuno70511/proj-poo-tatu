@@ -116,7 +116,7 @@ div[aria-labelledby="tatu-dd-sort"] {
     display: none;
 }
 
-@media all and (min-width: 991px){
+@media all and (min-width: 1200px){
     #tatu-filter-wrapper {
         height: 540px;
         position: fixed;
