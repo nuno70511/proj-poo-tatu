@@ -14,10 +14,6 @@
     color: var(--tatu-darker-green);
 }
 
-.breadcrumb-item:not(.active) > a {
-    color: var(--tatu-orange);
-}
-
 .tatu-view-gallery,
 .tatu-view-gallery:hover {
     color: var(--tatu-darker-orange);
@@ -54,10 +50,6 @@ div[aria-labelledby="tatu-dd-sort"] > .dropdown-item:active,
 .custom-control-input:active ~ .custom-control-label::before,
 #tatu-btn-filter:hover {
     background-color: var(--tatu-darker-orange) !important;
-}
-
-.breadcrumb {
-    background-color: transparent;
 }
 
 .form-control:focus {

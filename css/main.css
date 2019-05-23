@@ -101,6 +101,14 @@ div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
     color: var(--tatu-red) !important;
 }
 
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item:not(.active) > a {
+    color: var(--tatu-orange);
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -112,16 +120,16 @@ div[aria-labelledby="tatu-navLink-user"] > .dropdown-item:active {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--gray);
+    background: var(--tatu-green);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--gray-dark);
+    background: var(--tatu-darker-green);
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--white);
+    background: transparent;
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
