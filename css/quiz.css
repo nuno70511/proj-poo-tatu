@@ -1,13 +1,40 @@
 @import "main.css";
 
-.tatu-btn-answer {
+.table,
+.table tr:nth-child(even),
+.table > thead th,
+.tatu-btn-difficulty:hover,
+.tatu-btn-answer,
+#tatu-btn-start:hover {
     background-color: var(--tatu-green);
+}
+
+.tatu-dif-selected {
+    background-color: var(--tatu-green) !important;
+}
+
+.table tr:nth-child(odd) {
+    background-color: var(--tatu-darker-green);
+}
+
+.tatu-btn-difficulty,
+.tatu-btn-answer:hover,
+#tatu-btn-start,
+#tatu-btn-next {
+    background-color: var(--tatu-orange);
+}
+
+.tatu-tr-active {
+    background-color: var(--tatu-orange) !important;
+}
+
+.tatu-btn-answer,
+#tatu-btn-start {
     width: 18rem;
 }
 
-.tatu-btn-answer:hover,
-#tatu-btn-next {
-    background-color: var(--tatu-orange);
+.tatu-btn-difficulty {
+    width: 12rem;
 }
 
 #tatu-question-content {
@@ -20,7 +47,7 @@
 }
 
 #tatu-quiz-wrapper {
-    border: 2px solid var(--tatu-yellow);
+    border: 2px solid var(--tatu-green);
 }
 
 .tatu-timer-fixed {
@@ -33,4 +60,17 @@
     z-index: 1;
     background-color: var(--white);
     border: 2px solid  var(--tatu-red);
+}
+
+.table {
+    overflow-y: auto;
+    height: 300px;
+}
+
+.table::-webkit-scrollbar {
+    width: 6px;
+}
+
+.table::-webkit-scrollbar-thumb {
+    background: var(--tatu-orange);
 }
